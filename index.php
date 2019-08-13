@@ -205,7 +205,7 @@ $(document).ready(function() {
 </script>
 <script type="text/javascript">
             // this identifies your website in the createToken call below
-            Stripe.setPublishableKey('pk_live_6B6FM68dyrGW9tSWtjuvvSNu');
+            Stripe.setPublishableKey('***');
  
             function stripeResponseHandler(status, response) {
                 if (response.error) {
@@ -249,7 +249,7 @@ $error = '';
 $success = '';
 	  
 if ($_POST) {
-  Stripe::setApiKey("sk_live_hnJboY3jqCjkbM5rT1yJEnYp");
+  Stripe::setApiKey("***");
 
   try {
 	if (empty($_POST['street']) || empty($_POST['city']) || empty($_POST['zip']))
